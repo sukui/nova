@@ -69,6 +69,14 @@ trait StructSpecManager
         return $self;
     }
 
+    public static function fillMap(array $datas){
+        $result = [];
+        foreach ($datas as $data){
+            $result[] = self::fillData($data);
+        }
+        return $result;
+    }
+
     /**
      * for php-ext:thrift-protocol
      */
