@@ -30,7 +30,13 @@ trait StructSpecManager
         $arr = [];
         foreach($structSpec as $struct){
             $keyName =  $struct['var'];
-            $arr[$keyName] = $this->$keyName;
+            if(empty($struct['required'])){
+                if($this->$keyName !== null){
+                    $arr[$keyName] = $this->$keyName;
+                }
+            }else{
+                $arr[$keyName] = $this->$keyName;
+            }
         }
         return $arr;
     }
