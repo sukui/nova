@@ -16,7 +16,7 @@
     "zanphp/contracts": "dev-master",
     "zanphp/container": "dev-master",
     "zanphp/nova-foundation": "dev-laogui",
-    "zanphp/thrift-serialization": "dev-master"
+    "zanphp/thrift-serialization": "dev-laogui"
   },
   "require-dev": {
     "phpunit/phpunit": "4.*"
