@@ -14,7 +14,7 @@
   "require": {
     "zanphp/exception": "dev-master",
     "zanphp/contracts": "dev-master",
-    "zanphp/container": "dev-master",
+    "zanphp/container": "dev-laogui",
     "zanphp/nova-foundation": "dev-laogui",
     "zanphp/thrift-serialization": "dev-laogui"
   },
